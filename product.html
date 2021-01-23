@@ -22,7 +22,8 @@ $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip();
 	
 	// Select/Deselect checkboxes
-	var checkbox = $('table tbody input[type="checkbox"]');
+	//var checkbox = $('table tbody input[type="checkbox"]');
+	var checkbox = $('table tbody .chk');
 	$("#selectAll").click(function(){
 		if(this.checked){
 			checkbox.each(function(){
@@ -103,7 +104,7 @@ $(document).ready(function(){
 					<tr>
 						<td>
 							<span class="custom-checkbox">
-								<input type="checkbox" id="checkbox1" name="options[]" value="1">
+								<input type="checkbox" id="checkbox1" name="options[]" value="1" class="chk">
 								<label for="checkbox1"></label>
 							</span>
 						</td>
@@ -124,7 +125,7 @@ $(document).ready(function(){
 					<tr>
 						<td>
 							<span class="custom-checkbox">
-								<input type="checkbox" id="checkbox2" name="options[]" value="1">
+								<input type="checkbox" id="checkbox2" name="options[]" value="1" class="chk">
 								<label for="checkbox2"></label>
 							</span>
 						</td>
@@ -145,7 +146,7 @@ $(document).ready(function(){
 					<tr>
 						<td>	
 							<span class="custom-checkbox">
-								<input type="checkbox" id="checkbox3" name="options[]" value="1">
+								<input type="checkbox" id="checkbox3" name="options[]" value="1" class="chk">
 								<label for="checkbox3"></label>
 							</span>
 						</td>
@@ -166,7 +167,7 @@ $(document).ready(function(){
 					<tr>
 						<td>
 							<span class="custom-checkbox">
-								<input type="checkbox" id="checkbox4" name="options[]" value="1">
+								<input type="checkbox" id="checkbox4" name="options[]" value="1" class="chk">
 								<label for="checkbox4"></label>
 							</span>
 						</td>
@@ -187,7 +188,7 @@ $(document).ready(function(){
 					<tr>
 						<td>
 							<span class="custom-checkbox">
-								<input type="checkbox" id="checkbox5" name="options[]" value="1">
+								<input type="checkbox" id="checkbox5" name="options[]" value="1" class="chk">
 								<label for="checkbox5"></label>
 							</span>
 						</td>
