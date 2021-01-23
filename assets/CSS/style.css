@@ -1,0 +1,228 @@
+
+
+.color-yellow {
+    color: #fed136;
+}
+
+.btn-theme {
+    background-color: #fed136;
+    padding: 5px 20px;
+    color: #fff;
+    outline: none;
+}
+
+.btn-theme:focus {
+    box-shadow: none;
+}
+
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-home {
+    width: 100%;
+    min-height: 650px;
+    background: url(../img/bg-home.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000000;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+#banner-section {
+    padding-top: 50px;
+}
+
+#banner-section .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#banner-section .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner-section .owl-carousel .owl-dots button span {
+    background-color: #c8c8c8;
+    padding: 6px !important;
+}
+
+#banner-section .owl-carousel .owl-dots button.active span {
+    background-color: #fed136;
+}
+
+#banner-section .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-prev span,
+#banner-section .owl-carousel .owl-nav button.owl-next span {
+    font-size: 56px;
+    padding: 0 1rem;
+    color: #fed136;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -5rem;
+}
+
+#banner-section .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -5rem;
+}
+
+
+
+#about-section {
+    background: url(../img/about-bg.jpg);
+    background-size: 100% 100%;
+}
+
+#about-section .overlay {
+    background: linear-gradient(-5deg, #fff 0%, rgba(255, 255, 255, 0) 107.24%);
+    padding: 50px 0;
+}
+
+#about-section h1 {
+    color: #fff;
+}
+
+#about-section .overlay .text-about {
+    width: 50%;
+}
+
+#about-section .btn i.fas,
+#offer-section .btn i.fas {
+    margin-left: 10px;
+}
+
+#offer-section {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #EEEEEE 100%), #fff;
+    padding: 80px 0;
+}
+
+#divider {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+#divider hr {
+    margin: 0;
+    width: 10%;
+    height: 1px;
+    margin: auto;
+}
+
+#gallery-section {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #EEEEEE 100%), #fff;
+    padding: 80px 0;
+}
+
+#gallery-section .gallery .item {
+    width: 33%;
+}
+
+#gallery-section img {
+    width: 100%;
+    height: 200px;
+}
+
+
+#footer .footer-bottom {
+    color: #fff;
+    background-color: #fed136;
+    padding: 20px 0 1px;
+    text-align: center;
+}
+
+#footer .footer-bottom a {
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    #banner-section {
+        padding: 50px 0;
+    }
+    #banner-section .owl-carousel .owl-nav {
+        display: none;
+    }
+    #banner-section .owl-carousel .owl-dots {
+        bottom: -2rem;
+    }
+    #about-section {
+        background-size: cover;
+    }
+    #about-section .overlay .text-about {
+        width: 75%;
+    }
+    #contact-section {
+        background-size: cover;
+    }
+    #gallery-section .gallery .item {
+        width: 49%;
+    }
+    #gallery-section .gallery .item img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .top-header>.d-flex {
+        flex-direction: column;
+    }
+    .top-header>.d-flex>.item {
+        padding: 5px 0;
+    }
+    #banner-section {
+        padding: 50px 0;
+    }
+    #banner-section .owl-carousel .owl-nav {
+        display: none;
+    }
+    #banner-section .owl-carousel .owl-dots {
+        bottom: -2rem;
+    }
+    #about-section .overlay .text-about {
+        width: 100%;
+    }
+    #offer-section .d-flex {
+        flex-direction: column;
+    }
+ 
+    #footer .footer-top .newsletter {
+        padding-bottom: 30px;
+    }
+}
